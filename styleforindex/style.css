@@ -1,0 +1,27 @@
+html {
+    color: white;
+    background-image: url("https://cutewallpaper.org/21/1920x1080-gif/Pin-by-Buu-Dang-on-iPhone-6S-Plus-Wallpapers-Must-to-Have-in-.gif");
+    font-family: Arial;
+}
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+    color: rosybrown;
+}
+h2{
+    font-size: 25px;
+    text-decoration: underline;
+    color: aqua;
+}
+h3{
+    font-size: 23px;
+    text-decoration: underline;
+    color: yellow;
+}
+p {
+    font-size: 20px;
+}
+b {
+    color: saddlebrown;
+}
+
