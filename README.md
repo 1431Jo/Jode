@@ -1,3 +1,3 @@
 # MyOneWebsite
 
-https://wenndielangeweilekickt.netlify.app
+https://jode.netlify.app
