@@ -1,3 +1,4 @@
 # MyOneWebsite
 
-https://jode.netlify.app
+https://1431jo.github.io/Jode/
+
