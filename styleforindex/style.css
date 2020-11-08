@@ -28,4 +28,9 @@ p {
 b {
     color: saddlebrown;
 }
-
+#bild {
+    text-align: center;
+    width: 640px;
+    height: 360px;
+    margin-left: 20px;
+}
