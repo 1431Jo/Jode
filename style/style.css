@@ -1,0 +1,41 @@
+html {
+    color: white;
+    background-image: url("https://wallpaperaccess.com/full/1258631.jpg");    /*Old gif https://cutewallpaper.org/21/1920x1080-gif/Pin-by-Buu-Dang-on-iPhone-6S-Plus-Wallpapers-Must-to-Have-in-.gif*/
+    font-family: Arial;
+}
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+    color: rosybrown;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-decoration: underline;
+    color: aqua;
+    text-align: center;
+}
+h3{
+    font-size: 23px;
+    text-decoration: underline;
+    color: yellow;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+b {
+    color: saddlebrown;
+}
+#picture {
+    float: right;
+    width: 640px;
+    height: 360px;
+    margin-left: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
