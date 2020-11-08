@@ -29,8 +29,13 @@ b {
     color: saddlebrown;
 }
 #picture {
-    text-align: center;
+    float: right;
     width: 640px;
     height: 360px;
     margin-left: 20px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
 }
