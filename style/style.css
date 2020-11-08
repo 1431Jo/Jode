@@ -19,7 +19,8 @@ p {
     text-align: center;
 }
 b {
-    color: saddlebrown;
+    font-size: 18px;
+    color: red;
 }
 .container {
     text-align: center;
@@ -30,6 +31,7 @@ b {
     width: 70%;
     height: 25%;
     margin-left: 20px;
+    border: solid 14px black;
 }
 a {
     color: white;
@@ -37,5 +39,5 @@ a {
     font-size: 18px;
 }
 li {
-    font-size: 15px;
+    font-size: 18px;
 }
