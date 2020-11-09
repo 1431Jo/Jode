@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Jode</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="JS/function.js"></script>
 </head>
 <body>
     <h1>The official website for 1431Jo!</h1>
@@ -20,7 +21,7 @@
         <br>
         <a href="https://github.com/1431Jo" target="_blank">My GitHub!</a>
     <span>
-        <h3 id="teb" class="language" onclick="showContent('Language')">My most used languages! (click)</h3>
+        <h3 id="teb" class="language" onclick="showThings('Language')">My most used languages! (click)</h3>
         <div id="Language" style="display: none;">
         <p><b>Important: I do not yet have a very good command of some of the following languages, but I use them regularly</b></p>
             <li>JavaScript</li>
@@ -30,7 +31,7 @@
         </div>
     </span>
     <span>
-        <h3 id="tab" class="myprojects" onclick="showContent('projects')">My Projects! (click)</h3>
+        <h3 id="tab" class="myprojects" onclick="showThings('projects')">My Projects! (click)</h3>
         <div id="projects" style="display: none;">
             <h2>My active projects!</h2>
             <li> <a href="https://github.com/1431Jo/our-website">A website with friends</a> <br>Link to the website follows</li>
@@ -43,15 +44,5 @@
         </div>
     </span>
     <br>
-    <script>
-        function showContent(param){
-            if(document.getElementById(param).style.display === 'none') {
-                document.getElementById(param).style.display = 'inline';
-            } else {
-                document.getElementById(param).style.display = 'none';
-            }
-
-        }
-    </script>
 </body>
 </html>
