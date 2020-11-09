@@ -14,6 +14,11 @@ h2{
     text-decoration: underline;
     color: aqua;
 }
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: aqua;
+}
 p {
     font-size: 20px;
     text-align: center;
@@ -40,4 +45,15 @@ a {
 }
 li {
     font-size: 18px;
+}
+#tab:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+span{
+    text-align: center;
+}
+#teb:hover {
+    cursor: pointer;
+    opacity: 50%;
 }
