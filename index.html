@@ -14,29 +14,44 @@
        But I also program other things, like software with Python, but also bots are my favorites.
        I still go to school and do the whole thing as I said hobbyistically, but even young people can get something going!</p>
     <h2>My accounts!</h2>
-    <a href="https://steamcommunity.com/profiles/76561199014679462" target="_blank">My Steam!</a>
+        <a href="https://steamcommunity.com/profiles/76561199014679462" target="_blank">My Steam!</a>
+        <br>
+        <a href="https://twitter.com/1431Jo1" target="_blank">My Twitter!</a>
+        <br>
+        <a href="https://github.com/1431Jo" target="_blank">My GitHub!</a>
+    <span>
+        <h3 id="teb" class="language" onclick="showContent('Language')">My most used languages! (click)</h3>
+        <div id="Language" style="display: none;">
+        <p><b>Important: I do not yet have a very good command of some of the following languages, but I use them regularly</b></p>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>css</li>
+            <li>(html) (I know HTML is not a programming language)</li>
+        </div>
+    </span>
+    <span>
+        <h3 id="tab" class="myprojects" onclick="showContent('projects')">My Projects! (click)</h3>
+        <div id="projects" style="display: none;">
+            <h2>My active projects!</h2>
+            <li> <a href="https://github.com/1431Jo/our-website">A website with friends</a> <br>Link to the website follows</li>
+            <br>
+            <li> <a href="https://github.com/1431Jo/Jode">This Website</a></li>
+            <h2>My inactive projects</h2>
+            <li> <a href="https://github.com/1431Jo/MyFirstDiscordBot">My Discord Bot (Paused)</a> <br>This project is paused</li>
+            <br>
+            <li> <a href="https://github.com/1431Jo/FlyingSlime-PAUSIERT">My Game (Flying Slime) (Paused)</a> <br>This project is paused</li>
+        </div>
+    </span>
     <br>
-    <a href="https://twitter.com/1431Jo1" target="_blank">My Twitter!</a>
-    <br>
-    <a href="https://github.com/1431Jo" target="_blank">My GitHub!</a>
-    <h2>My most used languages!</h2>
-    <p><b>Important: I do not yet have a very good command of some of the following languages, but I use them regularly</b></p>
-    <div id="Language" style="display: inline;">
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>css</li>
-        <li>(html) (I know HTML is not a programming language)</li>
-    </div>
-    <h2>My active projects!</h2>
-    <div id="projects" style="display: inline;">
-    <li> <a href="https://github.com/1431Jo/our-website">A website with friends</a> <br>Link to the website follows</li>
-    <br>
-    <li> <a href="https://github.com/1431Jo/Jode">This Website</a></li>
-    <h2>My inactive projects</h2>
-    <li> <a href="https://github.com/1431Jo/MyFirstDiscordBot">My Discord Bot(Paused)</a> <br>This project is paused</li>
-    <br>
-    <li> <a href="https://github.com/1431Jo/FlyingSlime-PAUSIERT">My Game (Flying Slime) (Paused)</a> <br>This project is paused</li>
-    </div>
-    <br>
+    <script>
+        function showContent(param){
+            if(document.getElementById(param).style.display === 'none') {
+                document.getElementById(param).style.display = 'inline';
+            } else {
+                document.getElementById(param).style.display = 'none';
+            }
+
+        }
+    </script>
 </body>
 </html>
