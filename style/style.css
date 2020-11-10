@@ -1,27 +1,29 @@
 html {
     color: white;
-    background-color: darkgrey;
+    background-color: #333;
     font-family: Arial;
 }
 h1{
     font-size: 35px;
     text-decoration: underline;
-    color: black;
+    color: darkgrey;
     text-align: center;
 }
 h2{
     font-size: 25px;
     text-decoration: underline;
-    color: aqua;
+    color: hsl(200, 100%, 50%);
+    text-align: center;
 }
 h3 {
     font-size: 30px;
     text-decoration: underline;
-    color: aqua;
+    color: hsl(200, 100%, 50%);
 }
 p {
     font-size: 20px;
     text-align: center;
+    color: black;
 }
 b {
     font-size: 18px;
@@ -39,21 +41,38 @@ b {
     border: solid 14px black;
 }
 a {
-    color: white;
+    color:black;
     text-decoration: none;
     font-size: 18px;
 }
 li {
     font-size: 18px;
+    color: black;
 }
 #tab:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#teb:hover {
     cursor: pointer;
     opacity: 50%;
 }
 span{
     text-align: center;
 }
-#teb:hover {
-    cursor: pointer;
-    opacity: 50%;
+.box {
+    width: 800px;
+    max-width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.first {
+    color: black;
 }
