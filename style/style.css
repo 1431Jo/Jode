@@ -1,7 +1,7 @@
 html {
     color: white;
     background-color: #333;
-    font-family: Arial;
+    font-family: 'Quicksand', sans-serif;
 }
 h1{
     font-size: 35px;
@@ -41,13 +41,13 @@ b {
     border: solid 14px black;
 }
 a {
-    color:black;
+    color:white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 li {
     font-size: 18px;
-    color: black;
+    color: white;
 }
 #tab:hover {
     cursor: pointer;
@@ -70,8 +70,6 @@ span{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 .first {
     color: white;
