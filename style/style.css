@@ -7,7 +7,7 @@ html {
 h1{
     font-size: 35px;
     text-decoration: underline;
-    color: darkgrey;
+    color: #a9a9a9;
     text-align: center;
 }
 h2{
@@ -24,11 +24,11 @@ h3 {
 p {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 b {
     font-size: 18px;
-    color: red;
+    color: #ff0000;
 }
 .container {
     text-align: center;
@@ -38,16 +38,16 @@ b {
     width: 70%;
     height: 25%;
     margin-left: 20px;
-    border: solid 14px black;
+    border: solid 14px #000000;
 }
 a {
-    color:white;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
 }
 li {
     font-size: 18px;
-    color: white;
+    color: #ffffff;
 }
 #tab:hover {
     cursor: pointer;
@@ -66,11 +66,11 @@ span{
     background-color: #121212;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 6px black;
+    box-shadow: 0 0 10px 6px #000000;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 .first {
-    color: white;
+    color: #ffffff;
 }
