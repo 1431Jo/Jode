@@ -18,7 +18,7 @@ h2{
 h3 {
     font-size: 30px;
     text-decoration: underline;
-    color: hsl(200, 100%, 50%);
+    color: hsl(150, 100%, 50%);
 }
 p {
     font-size: 20px;
@@ -29,16 +29,7 @@ b {
     font-size: 18px;
     color: #ff0000;
 }
-.container {
-    text-align: center;
-}
-.picture {
-    text-align: center;
-    width: 70%;
-    height: 25%;
-    margin-left: 20px;
-    border: solid 14px #000000;
-}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -48,17 +39,14 @@ li {
     font-size: 20px;
     color: #ffffff;
 }
-#tab:hover {
+span {
+     text-align: center;
+ }
+#tabH3L:hover, #tabH3MP:hover , #tabH2AP:hover, #tabH2IP:hover, #tabH2FP:hover {
     cursor: pointer;
     opacity: 50%;
 }
-#teb:hover {
-    cursor: pointer;
-    opacity: 50%;
-}
-span{
-    text-align: center;
-}
+
 .box {
     width: 800px;
     max-width: 100%;
@@ -72,4 +60,29 @@ span{
 }
 .first {
     color: #ffffff;
+}
+.activeProjects {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: center;
+}
+.inactiveProjects {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: center;
+}
+.finishedProjects {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: center;
+}
+.container {
+     text-align: center;
+ }
+.picture {
+    text-align: center;
+    width: 70%;
+    height: 25%;
+    margin-left: 20px;
+    border: solid 14px #000000;
 }
