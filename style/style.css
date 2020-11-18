@@ -63,12 +63,12 @@ li {
 }
 .inactiveProjects {
     text-decoration: underline;
-    color: hsl(750, 100%, 40%);
+    color: hsl(1250, 100%, 40%);
     text-align: center;
 }
 .finishedProjects {
     text-decoration: underline;
-    color: hsl(750, 100%, 40%);
+    color: hsl(1650, 100%, 40%);
     text-align: center;
 }
 .container {
