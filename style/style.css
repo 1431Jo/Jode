@@ -86,3 +86,13 @@ span {
     margin-left: 20px;
     border: solid 14px #000000;
 }
+.accounts {
+    text-decoration: underline;
+    color: hsl(200, 100%, 50%);
+    text-align: center;
+}
+.language {
+    text-decoration: underline;
+    color: hsl(50, 100%, 50%);
+    text-align: center;
+}
