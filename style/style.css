@@ -38,9 +38,6 @@ li {
     font-size: 20px;
     color: #ffffff;
 }
-span {
-     text-align: center;
- }
 #tabH3L:hover, #tabH3MP:hover , #tabH2AP:hover, #tabH2IP:hover, #tabH2FP:hover, #tabH3A:hover {
     cursor: pointer;
     opacity: 50%;
