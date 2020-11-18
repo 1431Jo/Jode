@@ -1,5 +1,5 @@
 html {
-    color: white;
+    color: #ffffff;
     background: linear-gradient(to right, #068fd0, #0dd47e);
     font-family: 'Quicksand', sans-serif;
 }
@@ -29,7 +29,6 @@ b {
     font-size: 18px;
     color: #ff0000;
 }
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -42,11 +41,10 @@ li {
 span {
      text-align: center;
  }
-#tabH3L:hover, #tabH3MP:hover , #tabH2AP:hover, #tabH2IP:hover, #tabH2FP:hover {
+#tabH3L:hover, #tabH3MP:hover , #tabH2AP:hover, #tabH2IP:hover, #tabH2FP:hover, #tabH3A:hover {
     cursor: pointer;
     opacity: 50%;
 }
-
 .box {
     width: 800px;
     max-width: 100%;
