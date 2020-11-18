@@ -28,7 +28,7 @@
         <a class="first" href="https://github.com/1431Jos" target="_blank">My Github-organization</a>
     <br>
         <span>
-            <h3 id="teb" class="language" onclick="showThings('Language')">My most used languages! (click)</h3>
+            <h3 id="tabH3L" class="language" onclick="showThings('Language')">My most used languages! (click)</h3>
             <div id="Language" style="display: none;">
             <p><b>Important: <br>I do not yet have a very good command of some of the following languages, but I use them regularly</b></p>
                 <li>JavaScript</li>
@@ -38,16 +38,22 @@
             </div>
         </span>
         <span>
-            <h3 id="tab" class="myprojects" onclick="showThings('projects')">My Projects! (click)</h3>
+            <h3 id="tabH3MP" class="myprojects" onclick="showThings('projects')">My Projects! (click)</h3>
             <div id="projects" style="display: none;">
-                <h2>My active projects!</h2>
-                <li> <a href="https://github.com/1431Jo/our-website">A website with friends</a> <br> <a href="https://1431jo.github.io/our-website/">Link to website</a></li>
-                <br>
-                <li> <a href="https://github.com/1431Jo/Jode">This Website</a></li>
-                <h2>My inactive projects</h2>
+                <h2 id="tabH2AP" class="activeProjects" onclick="showThings('activeProjectsID')">My active projects! (click) </h2>
+                <div id="activeProjectsID" style="display: none;">
+                    <li> <a href="https://github.com/1431Jo/our-website">A website with friends</a> <br> <a href="https://1431jo.github.io/our-website/">Link to website</a></li>
+                    <br>
+                    <li> <a href="https://github.com/1431Jo/Jode">This Website</a></li>
+                </div>
+                <h2 id="tabH2IP" class="inactiveProjects" onclick="showThings('inactiveProjectsID')">My inactive projects! (click) </h2>
+                <div id="inactiveProjectsID" style="display: none;">
                 <li> <a href="https://github.com/1431Jo/MyFirstDiscordBot">My Discord Bot (Paused)</a> <br>This project is paused</li>
-                <h2>My finished projects</h2>
+                </div>
+                <h2 id="tabH2FP" class="finishedProjects" onclick="showThings('finishedProjectsID')">My finished projects! (click) </h2>
+                <div id="finishedProjectsID" style="display: none;">
                 <li> <a href="https://github.com/1431Jo/dumm4">A website about Gottfried Wilhelm Leibniz</a><br>No link to website</li>
+                </div>
             </div>
         </span>
     </div>
