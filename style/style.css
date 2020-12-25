@@ -1,16 +1,10 @@
 html {
     color: #ffffff;
-    background: linear-gradient(to right, #068fd0, #0dd47e);
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(150, 100%, 50%));
     font-family: 'Quicksand', sans-serif;
 }
 h1{
     font-size: 35px;
-    text-decoration: underline;
-    color: #a9a9a9;
-    text-align: center;
-}
-h2{
-    font-size: 25px;
     text-decoration: underline;
     color: hsl(200, 100%, 50%);
     text-align: center;
@@ -38,7 +32,7 @@ li {
     font-size: 20px;
     color: #ffffff;
 }
-#tabH3L:hover, #tabH3MP:hover , #tabH2AP:hover, #tabH2IP:hover, #tabH2FP:hover, #tabH3A:hover {
+#tabH3L:hover, #tabH3MP:hover , #tabH2AP:hover, #tabH2IP:hover, #tabH2FP:hover, #tabH3A:hover, #h2JoM:hover, #h3JoE:hover, #h3JoM:hover, #h3JoS:hover, #h3JoG:hover, #h3JoG:hover {
     cursor: pointer;
     opacity: 50%;
 }
@@ -59,17 +53,17 @@ li {
 .activeProjects {
     text-decoration: underline;
     color: hsl(750, 100%, 40%);
-    text-align: center;
+    text-align: left;
 }
 .inactiveProjects {
     text-decoration: underline;
-    color: hsl(1250, 100%, 40%);
-    text-align: center;
+    color: hsl(750, 100%, 40%);
+    text-align: left;
 }
 .finishedProjects {
     text-decoration: underline;
-    color: hsl(1650, 100%, 40%);
-    text-align: center;
+    color: hsl(750, 100%, 40%);
+    text-align: left;
 }
 .container {
      text-align: center;
@@ -83,11 +77,85 @@ li {
 }
 .accounts {
     text-decoration: underline;
-    color: hsl(200, 100%, 50%);
+    color: hsl(150, 100%, 50%);
     text-align: center;
 }
 .language {
     text-decoration: underline;
-    color: hsl(50, 100%, 50%);
+    color: hsl(150, 100%, 50%);
     text-align: center;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #121212;
+    transition: background-color .15s ease-in-out;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+    width: 30%;
+}
+.text-white {
+    color: #fff !important;
+}
+.mr-1, .mb-1 {
+    margin-right: auto;
+    margin-left: auto;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+a.rounded-circle:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+.twitterWidth {
+    width: 108%;
+}
+.SteamWidth {
+    width: 100%;
+    border-radius: 5px;
+}
+.githubWidth {
+    width: 95%;
+}
+.myLikes {
+    text-decoration: underline;
+    text-align: center;
+}
+.myMovies {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: left;
+}
+.myGames {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: left;
+}
+.mySongs {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: left;
+}
+.myEditors {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: left;
 }
